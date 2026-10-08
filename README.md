@@ -19,6 +19,10 @@ The `probe_*.py` scripts send one request that exercises the patched path and pr
 
 The scripts in this repository were written with an AI coding assistant (Claude), directed by the author, and run on the author's own hardware. The results reported in the posts come from those runs. They are published here as a record of what was run, not as submissions to any upstream project. Check a project's contribution policy on AI-assisted code before reusing them in a pull request.
 
+## Licence
+
+Apache License 2.0, the same licence as vLLM, which these scripts patch. The full text is in `LICENSE`.
+
 ## Provenance
 
 These patch vLLM (Apache-2.0) and are intended for upstream discussion. The adapter used in the post is AutoTrust's JEV-27B (Apache-2.0); the ROCm build is StillDeadcode's vLLM-Radiance.
